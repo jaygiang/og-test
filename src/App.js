@@ -17,7 +17,6 @@ function App() {
     <div className="App">
       <Helmet>
         <meta name="fragment" content="!"/>
-        <meta name="prerender-status-code" content="404" />
         <meta property="og:title" content="title" data-react-helmet="true"/>
         <meta property="og:description" content="this is description this is description this is description this is description" data-react-helmet="true"/>
         <meta property="og:title" content="https://us-central1-grommet-designer.cloudfunctions.net/images/jay-giang-hpe-com/dev-thumb.png?size=200" data-react-helmet="true"/>
