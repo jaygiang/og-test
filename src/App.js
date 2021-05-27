@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, {useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Helmet } from 'react-helmet';
@@ -7,32 +7,41 @@ function App() {
   window.prerenderReady = false;
 
   useEffect(() => {
-    setTimeout(function () {
+    setTimeout(function() {
       window.prerenderReady = true;
-    }, 1000)
+    }, 5000)
   })
+
 
   return (
     <div className="App">
       <Helmet>
-        {/* <!-- Primary Meta Tags --> */}
-        <title>Meta Tags — Preview, Edit and Generate</title>
-        <meta name="title" content="Meta Tags — Preview, Edit and Generate" />
-        <meta name="description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
+        <meta name="fragment" content="!"/>
+        <meta name="prerender-status-code" content="404" />
+        <meta property="og:title" content="title" data-react-helmet="true"/>
+        <meta property="og:description" content="this is description" data-react-helmet="true"/>
+        <meta property="og:title" content="https://us-central1-grommet-designer.cloudfunctions.net/images/jay-giang-hpe-com/dev-thumb.png?size=192" data-react-helmet="true"/>
 
-        {/* <!-- Open Graph / Facebook --/> */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://metatags.io/" />
-        <meta property="og:title" content="Meta Tags — Preview, Edit and Generate" />
-        <meta property="og:description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
-        <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png" />
+        <title>Jay Test</title>
+        <meta name="description" content="Web site created using create-react-app" data-react-helmet="true"/>
 
-        {/* <!-- Twitter --/> */}
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://metatags.io/" />
-        <meta property="twitter:title" content="Meta Tags — Preview, Edit and Generate" />
-        <meta property="twitter:description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
-        <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png" />
+        {/* <!-- Google / Search Engine Tags --> */}
+        <meta itemprop="name" content="Jay Test" data-react-helmet="true"/>
+        <meta itemprop="description" content="Google Sunday" data-react-helmet="true"/>
+        <meta itemprop="image" content="" data-react-helmet="true"/>
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta property="og:url" content="https://thirsty-ride-30e93e.netlify.app" data-react-helmet="true"/>
+        <meta property="og:type" content="website" data-react-helmet="true"/>
+        <meta property="og:title" content="FACEBOOK Sunday" data-react-helmet="true"/>
+        <meta property="og:description" content="this is description" data-react-helmet="true"/>
+        <meta property="og:image" content="https://us-central1-grommet-designer.cloudfunctions.net/images/jay-giang-hpe-com/dev-thumb.png?size=200" data-react-helmet="true"/>
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" data-react-helmet="true"/>
+        <meta name="twitter:title" content="React App" data-react-helmet="true"/>
+        <meta name="twitter:description" content="Web site created using create-react-app" data-react-helmet="true"/>
+        <meta name="twitter:image" content="" data-react-helmet="true"/>
       </Helmet>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
