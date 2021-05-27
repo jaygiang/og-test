@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <Helmet>
+        <meta name="fragment" content="!"/>
         <meta property="og:title" content="title" data-react-helmet="true"/>
         <meta property="og:description" content="this is description" data-react-helmet="true"/>
         <meta property="og:title" content="https://us-central1-grommet-designer.cloudfunctions.net/images/jay-giang-hpe-com/dev-thumb.png?size=192" data-react-helmet="true"/>
