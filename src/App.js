@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <Helmet>
+        <meta name="google-site-verification" content="lFfamidnTD18m_6M9ouOeWJbaehME551DP-vSJw-MJE" />
         <meta name="fragment" content="!"/>
         <meta name="prerender-status-code" content="404" />
         <meta property="og:title" content="title" data-react-helmet="true"/>
