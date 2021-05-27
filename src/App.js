@@ -32,13 +32,13 @@ function App() {
         {/* <!-- Facebook Meta Tags --> */}
         <meta property="og:url" content="https://thirsty-ride-30e93e.netlify.app" data-react-helmet="true"/>
         <meta property="og:type" content="website" data-react-helmet="true"/>
-        <meta property="og:title" content="FACEBOOK Sunday" data-react-helmet="true"/>
+        <meta property="og:title" content="FACEBOOK Something Els" data-react-helmet="true"/>
         <meta property="og:description" content="this is description this is description this is description this is description" data-react-helmet="true"/>
         <meta property="og:image" content="https://us-central1-grommet-designer.cloudfunctions.net/images/jay-giang-hpe-com/dev-thumb.png?size=200" data-react-helmet="true"/>
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" data-react-helmet="true"/>
-        <meta name="twitter:title" content="React App Sunday The Bunday the tunday" data-react-helmet="true"/>
+        <meta name="twitter:title" content="React App Sunday The Bunday the tunday Something else" data-react-helmet="true"/>
         <meta name="twitter:description" content="Web site created using create-react-app" data-react-helmet="true"/>
         <meta name="twitter:image" content="https://us-central1-grommet-designer.cloudfunctions.net/images/jay-giang-hpe-com/dev-thumb.png?size=200" data-react-helmet="true"/>
       </Helmet>
