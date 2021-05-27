@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
 import MetaTags from 'react-meta-tags';
 
 function App() {
