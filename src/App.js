@@ -16,8 +16,8 @@ function App() {
     <div className="App">
       <Helmet>
         {/* <!-- Primary Meta Tags --> */}
-        <title>Meta Tags — Preview, Edit and Generate</title/>
-<meta name="title" content="Meta Tags — Preview, Edit and Generate" />
+        <title>Meta Tags — Preview, Edit and Generate</title>
+        <meta name="title" content="Meta Tags — Preview, Edit and Generate" />
         <meta name="description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
 
         {/* <!-- Open Graph / Facebook --/> */}
