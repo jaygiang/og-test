@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     setTimeout(function() {
       window.prerenderReady = true;
-    }, 10000)
+    }, 1000)
   })
 
   return (
