@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Helmet } from 'react-helmet';
+import MetaTags from 'react-meta-tags';
 
 function App() {
   window.prerenderReady = false;
@@ -14,34 +15,12 @@ function App() {
 
   return (
     <div className="App">
-      <Helmet>
-        <meta name="fragment" content="!"/>
-        <meta name="prerender-status-code" content="404" />
-        <meta property="og:title" content="title" data-react-helmet="true"/>
-        <meta property="og:description" content="this is description" data-react-helmet="true"/>
-        <meta property="og:title" content="https://us-central1-grommet-designer.cloudfunctions.net/images/jay-giang-hpe-com/dev-thumb.png?size=192" data-react-helmet="true"/>
-
-        <title>Jay Test</title>
-        <meta name="description" content="Web site created using create-react-app" data-react-helmet="true"/>
-
-        {/* <!-- Google / Search Engine Tags --> */}
-        <meta itemprop="name" content="Jay Test" data-react-helmet="true"/>
-        <meta itemprop="description" content="Google Sunday" data-react-helmet="true"/>
-        <meta itemprop="image" content="" data-react-helmet="true"/>
-
-        {/* <!-- Facebook Meta Tags --> */}
-        <meta property="og:url" content="https://thirsty-ride-30e93e.netlify.app" data-react-helmet="true"/>
-        <meta property="og:type" content="website" data-react-helmet="true"/>
-        <meta property="og:title" content="FACEBOOK Jay" data-react-helmet="true"/>
-        <meta property="og:description" content="this is description" data-react-helmet="true"/>
-        <meta property="og:image" content="https://us-central1-grommet-designer.cloudfunctions.net/images/jay-giang-hpe-com/dev-thumb.png?size=192" data-react-helmet="true"/>
-
-        {/* <!-- Twitter Meta Tags --> */}
-        <meta name="twitter:card" content="summary_large_image" data-react-helmet="true"/>
-        <meta name="twitter:title" content="React App" data-react-helmet="true"/>
-        <meta name="twitter:description" content="Web site created using create-react-app" data-react-helmet="true"/>
-        <meta name="twitter:image" content="" data-react-helmet="true"/>
-      </Helmet>
+          <MetaTags>
+            <title>Page 1</title>
+            <meta name="description" content="Some description." />
+            <meta property="og:title" content="MyApp" />
+            <meta property="og:image" content="https://us-central1-grommet-designer.cloudfunctions.net/images/jay-giang-hpe-com/dev-thumb.png?size=192" />
+          </MetaTags>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
