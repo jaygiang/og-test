@@ -39,7 +39,7 @@ function App() {
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" data-react-helmet="true"/>
-        <meta name="twitter:title" content="React App Sunday The Bunday" data-react-helmet="true"/>
+        <meta name="twitter:title" content="React App Sunday The Bunday the tunday" data-react-helmet="true"/>
         <meta name="twitter:description" content="Web site created using create-react-app" data-react-helmet="true"/>
         <meta name="twitter:image" content="https://us-central1-grommet-designer.cloudfunctions.net/images/jay-giang-hpe-com/dev-thumb.png?size=200" data-react-helmet="true"/>
       </Helmet>
