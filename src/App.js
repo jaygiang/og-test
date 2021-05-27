@@ -1,12 +1,22 @@
+import React, {useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Helmet } from 'react-helmet';
 
 function App() {
+  window.prerenderReady = false;
+
+  useEffect(() => {
+    setTimeout(function() {
+      window.prerenderReady = true;
+    }, 10000)
+  })
+
   return (
     <div className="App">
       <Helmet>
         <meta name="fragment" content="!"/>
+        <meta name="prerender-status-code" content="404" />
         <meta property="og:title" content="title" data-react-helmet="true"/>
         <meta property="og:description" content="this is description" data-react-helmet="true"/>
         <meta property="og:title" content="https://us-central1-grommet-designer.cloudfunctions.net/images/jay-giang-hpe-com/dev-thumb.png?size=192" data-react-helmet="true"/>
