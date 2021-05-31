@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from '../images/logo.svg';
+// import './App.css';
 import { Helmet } from 'react-helmet';
 
 function App() {
