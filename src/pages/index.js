@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <Helmet>
         <meta name="fragment" content="!"/>
-        <meta property="og:title" content="title" data-react-helmet="true"/>
-        <meta property="og:description" content="Test Monday" data-react-helmet="true"/>
+        <meta property="og:title" content="THIS IS A TEST for linkedin" data-react-helmet="true"/>
+        <meta property="og:description" content="TESITNG LINKEDIN" data-react-helmet="true"/>
         <meta property="og:title" content="https://picsum.photos/200" data-react-helmet="true"/>
 
         <title>Jay Test</title>
@@ -18,7 +18,7 @@ function App() {
         {/* <!-- Google / Search Engine Tags --> */}
         <meta itemprop="name" content="Jay Test" data-react-helmet="true"/>
         <meta itemprop="description" content="Google Sunday" data-react-helmet="true"/>
-        <meta itemprop="image" content="" data-react-helmet="true"/>
+        <meta itemprop="image" content="https://picsum.photos/200" data-react-helmet="true"/>
 
         {/* <!-- Facebook Meta Tags --> */}
         <meta property="og:url" content="https://thirsty-ride-30e93e.netlify.app" data-react-helmet="true"/>
