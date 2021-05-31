@@ -4,15 +4,6 @@ import logo from '../images/logo.svg';
 import { Helmet } from 'react-helmet';
 
 function App() {
-  window.prerenderReady = false;
-
-  useEffect(() => {
-    setTimeout(function() {
-      window.prerenderReady = true;
-    }, 2000)
-  })
-
-
   return (
     <div className="App">
       <Helmet>
