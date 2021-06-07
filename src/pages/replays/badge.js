@@ -9,6 +9,8 @@ function App() {
         <meta property="og:title" content="Sunday" data-react-helmet="true"/>
         <meta property="og:description" content="Sunday" data-react-helmet="true"/>
         <meta property="og:image" content="https://us-central1-grommet-designer.cloudfunctions.net/images/jay-giang-hpe-com/finisher_test.jpg" data-react-helmet="true"/>
+        <meta property="og:image:width" content="200" data-react-helmet="true" />
+        <meta property="og:image:height" content="200" data-react-helmet="true"/>
 
         <title>Jay Test</title>
         <meta name="description" content="Web site created using create-react-app" data-react-helmet="true"/>
